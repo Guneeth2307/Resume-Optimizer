@@ -114,7 +114,7 @@ def main():
         # Select model
         generative_model = st.selectbox(
             "Generative Model",
-            ["Qwen/Qwen3-235B-A22B", "deepseek-ai/DeepSeek-V3"],
+            ["Qwen/Qwen3-72B-Instruct", "deepseek-ai/DeepSeek-V3"],
             index=0
         )
 
@@ -213,4 +213,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
