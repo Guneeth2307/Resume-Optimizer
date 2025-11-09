@@ -16,7 +16,7 @@ def run_rag_completion(
     job_description: str,
     api_key: str,
     embedding_model: str = "BAAI/bge-en-icl",
-    generative_model: str = "Qwen/Qwen3-72B-Instruct"
+    generative_model: str = "Qwen/Qwen2-72B-Instruct"
 ) -> str:
     """Run RAG completion using Nebius models for resume optimization."""
     try:
@@ -213,5 +213,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
